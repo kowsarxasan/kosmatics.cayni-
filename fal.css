@@ -1,0 +1,154 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+
+header {
+  background-color: #4a007d;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: #ffd54f;
+}
+
+/* Main Section */
+main {
+  padding: 30px;
+  background-color: #fff;
+}
+
+/* Footer */
+footer {
+  background-color: #4a007d;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  margin-top: 40px;
+}
+
+/* Gallery Images */
+img {
+  width: 200px;
+  height: auto;
+  margin: 10px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+img:hover {
+  transform: scale(1.05);
+  border-color: #4a007d;
+}
+
+/* Table Styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table, th, td {
+  border: 1px solid #ccc;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+thead {
+  background-color: #4a007d;
+  color: white;
+}
+
+tfoot {
+  background-color: #f0f0f0;
+  text-align: center;
+}
+
+/* Form Styling */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+fieldset {
+  border: 2px solid #4a007d;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fafafa;
+}
+
+legend {
+  font-weight: bold;
+  color: #4a007d;
+}
+
+input[type="text"],
+select,
+textarea {
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+input[type="submit"] {
+  background-color: #4a007d;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  width: 120px;
+}
+
+input[type="submit"]:hover {
+  background-color: #6a1b9a;
+}
+
+/* Responsive Layout (Optional for bonus) */
+@media (max-width: 600px) {
+  nav a {
+    display: block;
+    margin: 10px 0;
+  }
+
+  img {
+    width: 100%;
+  }
+}
